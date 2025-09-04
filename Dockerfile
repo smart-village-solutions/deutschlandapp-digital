@@ -6,12 +6,14 @@ COPY package.json package-lock.json* ./
 RUN npm ci
 
 COPY . .
-# Falls du einen Unterpfad brauchst: ENV VITE_BASE=/
+# Wenn du einen Unterpfad brauchst: ENV VITE_BASE=/
 RUN npm run build
 
 # ---- Runtime stage ----
 FROM nginx:1.27-alpine
+# Nginx-Konfiguration mit SPA-Fallback
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Build-Artefakte deployen
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
 HEALTHCHECK --interval=30s --timeout=3s CMD wget -qO- http://localhost/ || exit 1

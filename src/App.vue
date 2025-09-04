@@ -122,21 +122,38 @@ function submitContactForm() {
         <div class="mt-10 grid gap-6 md:grid-cols-3">
           <div class="card">
             <div class="icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="9"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ti-icon">
+                <path d="M0 0h24v24H0z" stroke="none"/>
+                <path d="M10 5a2 2 0 0 1 4 0"/>
+                <path d="M5 17h14l-1 -5a7 7 0 0 0 -12 0l-1 5"/>
+                <path d="M13.73 21a2 2 0 0 1 -3.46 0"/>
+                <path d="M21 8a2 2 0 0 0 -2 -2"/>
+                <path d="M3 8a2 2 0 0 1 2 -2"/>
+              </svg>
             </div>
             <h3 class="card-title">Krisenkommunikation in Echtzeit</h3>
             <p class="card-text">Fall Hagenow: per Push‑Nachricht informieren, Lageupdates teilen, Störungen kartenbasiert umfahren. Vertrauen entsteht durch Tempo und Transparenz.</p>
           </div>
           <div class="card">
             <div class="icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h18M3 12h18M3 19h18"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ti-icon">
+                <path d="M11 6h9"/>
+                <path d="M11 12h9"/>
+                <path d="M11 18h9"/>
+                <path d="M4 6l1 1 2 -2"/>
+                <path d="M4 12l1 1 2 -2"/>
+                <path d="M4 18l1 1 2 -2"/>
+              </svg>
             </div>
             <h3 class="card-title">Alltagstools, die wirklich helfen</h3>
             <p class="card-text">Abfallkalender mit Erinnerung, Veranstaltungskalender, Mängelmelder, Mitfahrbörse, Ehrenamt & mehr – personalisierbar und kontextbezogen.</p>
           </div>
           <div class="card">
             <div class="icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16v10H4z"/><path d="M16 3v4M8 3v4"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ti-icon">
+                <path d="M12 3l8 4v5c0 5 -3.5 9 -8 10c-4.5 -1 -8 -5 -8 -10V7l8 -4"/>
+                <path d="M9 12l2 2l4 -4"/>
+              </svg>
             </div>
             <h3 class="card-title">Souveräne Reichweite</h3>
             <p class="card-text">Eigener, datenschutzkonformer Kanal statt Algorithmus‑Abhängigkeit. Keine Werbung Dritter, volle Kontrolle über Ansprache und Timing.</p>
@@ -206,9 +223,9 @@ function submitContactForm() {
           </picture>
         </div>
         <div class="mt-10 grid gap-6 md:grid-cols-3">
-          <div class="card"><h3 class="card-title">Digitale Abfallwirtschaft</h3><p class="card-text">Adressgenaue Benachrichtigungen, personalisierte Kalender, weniger Rückfragen.</p></div>
-          <div class="card"><h3 class="card-title">Bekanntmachungen digital</h3><p class="card-text">Digitale Veröffentlichung, Stelen vor Ort, bessere Reichweite ohne Mehraufwand.</p></div>
-          <div class="card"><h3 class="card-title">Schnittstellen nutzen</h3><p class="card-text">Ratsinfos, Veranstaltungen, Meldungen automatisiert importieren – Low‑Code & KI‑gestützt.</p></div>
+          <div class="card"><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ti-icon"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"/><path d="M9 7V4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"/></svg></div><h3 class="card-title">Digitale Abfallwirtschaft</h3><p class="card-text">Adressgenaue Benachrichtigungen, personalisierte Kalender, weniger Rückfragen.</p></div>
+          <div class="card"><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ti-icon"><path d="M16 3h3a1 1 0 0 1 1 1v13a4 4 0 0 1 -4 4H6a4 4 0 0 1 -4 -4V7a4 4 0 0 1 4 -4h3"/><path d="M8 21V7a4 4 0 0 1 4 -4"/><path d="M12 8h8"/><path d="M12 12h8"/><path d="M12 16h8"/></svg></div><h3 class="card-title">Bekanntmachungen digital</h3><p class="card-text">Digitale Veröffentlichung, Stelen vor Ort, bessere Reichweite ohne Mehraufwand.</p></div>
+          <div class="card"><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ti-icon"><path d="M7 8h-2a3 3 0 0 0 0 6h2"/><path d="M17 8h2a3 3 0 0 1 0 6h-2"/><path d="M8 12h8"/></svg></div><h3 class="card-title">Schnittstellen nutzen</h3><p class="card-text">Ratsinfos, Veranstaltungen, Meldungen automatisiert importieren – Low‑Code & KI‑gestützt.</p></div>
         </div>
       </div>
     </section>
@@ -259,7 +276,7 @@ function submitContactForm() {
             <p class="section-subtitle">Offen, modular, standard‑konform und lokal anpassbar statt starr, teuer und überkomplex. Kommunen behalten Souveränität – bei geringeren Kosten und höherer Praxistauglichkeit.</p>
             <div class="mt-6 grid gap-4 md:grid-cols-2">
               <div class="compare-card pro">
-                <h3 class="mb-1 font-semibold">Föderaler App‑Baukasten</h3>
+                <h3 class="mb-1 font-semibold inline-flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-emerald-600"><path d="M12 3l8 4v5c0 5 -3.5 9 -8 10c-4.5 -1 -8 -5 -8 -10V7l8 -4"/><path d="M9 12l2 2l4 -4"/></svg>Föderaler App‑Baukasten</h3>
                 <ul class="pro-list">
                   <li><span class="dot"></span>Open Source & gemeinsame Weiterentwicklung</li>
                   <li><span class="dot"></span>Module nach Bedarf – Schritt für Schritt</li>
@@ -275,7 +292,7 @@ function submitContactForm() {
                 </div>
               </div>
               <div class="compare-card con">
-                <h3 class="mb-1 font-semibold">Zentrale Einheits‑App</h3>
+                <h3 class="mb-1 font-semibold inline-flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-rose-600"><path d="M12 9v4"/><path d="M12 17v.01"/><circle cx="12" cy="12" r="9"/></svg>Zentrale Einheits‑App</h3>
                 <ul class="con-list">
                   <li><span class="dot"></span>Hohe Komplexität oder geringe Praxistauglichkeit</li>
                   <li><span class="dot"></span>Vendor‑Lock‑in & geringe Weiterentwicklungsdynamik</li>
@@ -312,10 +329,10 @@ function submitContactForm() {
             <h2 class="section-title">Offenes, föderales App‑Baukastenmodell</h2>
             <p class="section-subtitle">Open Source, Modularität und Interkommunalität – die Grundlage digitaler Souveränität.</p>
             <div class="mt-6 grid gap-4 sm:grid-cols-2">
-              <div class="feature"><span class="feature-dot bg-brand"></span><h3>Open Source</h3><p>Transparenz, Sicherheit, gemeinsame Weiterentwicklung, geringere Lock‑in‑Risiken.</p></div>
-              <div class="feature"><span class="feature-dot bg-brand"></span><h3>Modularität</h3><p>Bausteine nach Bedarf kombinieren – von Mängelmelder bis ÖPNV‑Integration.</p></div>
-              <div class="feature"><span class="feature-dot bg-brand"></span><h3>Interkommunalität</h3><p>Ressourcen bündeln, gemeinsam finanzieren und betreiben, Wissen teilen.</p></div>
-              <div class="feature"><span class="feature-dot bg-brand"></span><h3>Skalierbarkeit</h3><p>Lokale Vielfalt bewahren, überregionale Synergien nutzen – föderiert statt zentralistisch.</p></div>
+              <div class="feature"><div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M10 13a3 3 0 1 0 4 0a5 5 0 1 1 -4 0"/></svg></div><h3>Open Source</h3><p>Transparenz, Sicherheit, gemeinsame Weiterentwicklung, geringere Lock‑in‑Risiken.</p></div>
+              <div class="feature"><div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg></div><h3>Modularität</h3><p>Bausteine nach Bedarf kombinieren – von Mängelmelder bis ÖPNV‑Integration.</p></div>
+              <div class="feature"><div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7a4 4 0 1 0 0 8a4 4 0 0 0 0 -8"/><path d="M17 11a4 4 0 1 0 0 8"/><path d="M14 7a4 4 0 1 0 0 8"/></svg></div><h3>Interkommunalität</h3><p>Ressourcen bündeln, gemeinsam finanzieren und betreiben, Wissen teilen.</p></div>
+              <div class="feature"><div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l6 -6"/><path d="M14 6l6 -6"/><path d="M14 14l6 6"/><path d="M4 4l6 6"/></svg></div><h3>Skalierbarkeit</h3><p>Lokale Vielfalt bewahren, überregionale Synergien nutzen – föderiert statt zentralistisch.</p></div>
             </div>
             <div class="mt-6 flex flex-wrap gap-3">
               <a href="#kontakt" class="btn-secondary">Gespräch vereinbaren</a>
@@ -324,7 +341,7 @@ function submitContactForm() {
           </div>
           <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-soft">
             <picture>
-              <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Open‑Source‑Kollaboration – Basis des föderalen Baukastens" class="mb-3 w-full rounded-md border border-slate-200 object-cover"/>
+              <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Open‑Source‑Kollaboration – Basis des f��deralen Baukastens" class="mb-3 w-full rounded-md border border-slate-200 object-cover"/>
             </picture>
             <h3 class="mb-3 text-lg font-semibold">Architektur auf einen Blick</h3>
             <ul class="space-y-2 text-slate-700">
@@ -472,6 +489,8 @@ function submitContactForm() {
 .link:hover{text-decoration:underline}
 .feature{background:white;border:1px solid rgba(100,116,139,.25);border-radius:.75rem;padding:1rem}
 .feature-dot{display:inline-block;width:.5rem;height:.5rem;border-radius:9999px;margin-right:.5rem}
+.feature-icon{display:inline-grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:.5rem;color:#0F3B8C;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);margin-bottom:.5rem}
+.ti-icon{width:1.5rem;height:1.5rem}
 .z-card{background:white;border:1px solid rgba(100,116,139,.25);border-radius:.75rem;padding:1rem}
 .ol-card{display:flex;gap:.75rem;align-items:flex-start;background:white;border:1px solid rgba(100,116,139,.25);border-radius:.75rem;padding:1rem}
 .ol-card>span{display:inline-grid;place-items:center;min-width:2rem;height:2rem;border-radius:.5rem;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);color:#0F3B8C;font-weight:600}

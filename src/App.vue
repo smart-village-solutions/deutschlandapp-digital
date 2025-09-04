@@ -151,7 +151,7 @@ function submitContactForm() {
           </div>
           <div class="stat">
             <span class="stat-number">44%</span>
-            <span class="stat-label">würden „alles in einer App erledigen“ (16–34 Jahre)</span>
+            <span class="stat-label">würden „alles in einer App erledigen��� (16–34 Jahre)</span>
           </div>
         </div>
       </div>
@@ -226,6 +226,9 @@ function submitContactForm() {
             </ul>
           </div>
           <div class="grid gap-4">
+            <picture>
+              <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/12769934/pexels-photo-12769934.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Umleitungsschild – Risiken und Herausforderungen rechtzeitig erkennen" class="w-full rounded-xl border border-slate-200 object-cover"/>
+            </picture>
             <div class="notice">
               <strong class="text-slate-900">Studienlage</strong>
               <p class="text-slate-700">BBSR (2025), CIMA (2022), WIK (2021) bestätigen Nutzen & Effizienz kommunaler Apps – bei strategischer Umsetzung.</p>

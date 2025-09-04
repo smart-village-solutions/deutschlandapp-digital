@@ -151,7 +151,7 @@ function submitContactForm() {
           </div>
           <div class="stat">
             <span class="stat-number">44%</span>
-            <span class="stat-label">würden „alles in einer App erledigen��� (16–34 Jahre)</span>
+            <span class="stat-label">würden „alles in einer App erledigen“ (16–34 Jahre)</span>
           </div>
         </div>
       </div>
@@ -267,6 +267,9 @@ function submitContactForm() {
             </div>
           </div>
           <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-soft">
+            <picture>
+              <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Open‑Source‑Kollaboration – Basis des föderalen Baukastens" class="mb-3 w-full rounded-md border border-slate-200 object-cover"/>
+            </picture>
             <h3 class="mb-3 text-lg font-semibold">Architektur auf einen Blick</h3>
             <ul class="space-y-2 text-slate-700">
               <li><span class="tag">Core</span> App‑Shell (iOS/Android/Web), Identität, Benachrichtigungen</li>

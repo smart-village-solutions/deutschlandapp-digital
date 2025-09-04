@@ -136,7 +136,12 @@ const mobileNavOpen = ref(false)
             <div>Deutschland</div>
           </address>
           <p class="mt-2">Tel.: <a class="link" href="tel:+4933841639690">033841-63969-0</a></p>
-          <p>E-Mail: <a class="link" href="mailto:info@smart-village.solutions">info@smart-village.solutions</a></p>
+          <p>
+            E-Mail:
+            <a class="link" href="mailto:info@smart-village.solutions"
+              >info@smart-village.solutions</a
+            >
+          </p>
           <p class="mt-2">Registergericht: Amtsgericht Potsdam</p>
           <p>Registernummer: HRB 34248</p>
           <p>Geschäftsführer/in: Philipp Wilimzig &amp; Erik Hildenbrand</p>
@@ -148,37 +153,99 @@ const mobileNavOpen = ref(false)
           <h2 id="bildquellen-title" class="text-base font-semibold text-slate-900">Bildquellen</h2>
           <ul class="mt-2 space-y-1 text-slate-700">
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=1400&h=700&fit=crop" target="_blank" rel="noopener">Pexels – Foto 1398005</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=1400&h=700&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 1398005</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/6009077/pexels-photo-6009077.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" target="_blank" rel="noopener">Pexels – Foto 6009077</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/6009077/pexels-photo-6009077.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 6009077</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/3852577/pexels-photo-3852577.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" target="_blank" rel="noopener">Pexels – Foto 3852577</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/3852577/pexels-photo-3852577.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 3852577</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/33675980/pexels-photo-33675980.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" target="_blank" rel="noopener">Pexels – Foto 33675980</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/33675980/pexels-photo-33675980.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 33675980</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/34069/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" target="_blank" rel="noopener">Pexels – Foto 34069</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/34069/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 34069</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/12769934/pexels-photo-12769934.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" target="_blank" rel="noopener">Pexels – Foto 12769934</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/12769934/pexels-photo-12769934.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 12769934</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" target="_blank" rel="noopener">Pexels – Foto 11035544</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 11035544</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop" target="_blank" rel="noopener">Pexels – Foto 8849295</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 8849295</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/32642484/pexels-photo-32642484.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop" target="_blank" rel="noopener">Pexels – Foto 32642484</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/32642484/pexels-photo-32642484.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 32642484</a
+              >
             </li>
             <li>
-              <a class="link break-all" href="https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop" target="_blank" rel="noopener">Pexels – Foto 1398005</a>
+              <a
+                class="link break-all"
+                href="https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop"
+                target="_blank"
+                rel="noopener"
+                >Pexels – Foto 1398005</a
+              >
             </li>
           </ul>
-          <p class="mt-2 text-slate-500">Bilder von Pexels (https://www.pexels.com/de-de/), genutzt gemäß deren Lizenz.</p>
+          <p class="mt-2 text-slate-500">
+            Bilder von Pexels (https://www.pexels.com/de-de/), genutzt gemäß deren Lizenz.
+          </p>
         </section>
       </div>
     </footer>

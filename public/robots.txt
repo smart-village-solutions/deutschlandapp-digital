@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://005945b58a4447478b5d0854394ef70e-f776938779bd4124ad4a61ff8.fly.dev/sitemap.xml
+Sitemap: /sitemap.xml

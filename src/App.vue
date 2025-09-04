@@ -112,6 +112,11 @@ function submitContactForm() {
           <h2 class="section-title">Bürger‑App als Rückgrat in Krisen und im Alltag</h2>
           <p class="section-subtitle">Direkter Kanal, kontextsensitive Dienste und proaktive Kommunikation – weit mehr als eine Webseite oder Social Media.</p>
         </div>
+        <div class="mt-8 overflow-hidden rounded-xl border border-slate-200">
+          <picture>
+            <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/6009077/pexels-photo-6009077.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Bürger nutzt Smartphone – Push‑Benachrichtigungen und mobile Verwaltung" class="h-full w-full object-cover"/>
+          </picture>
+        </div>
         <div class="mt-10 grid gap-6 md:grid-cols-3">
           <div class="card">
             <div class="icon">

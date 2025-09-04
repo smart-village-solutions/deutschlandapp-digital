@@ -200,7 +200,7 @@ function submitContactForm() {
         </div>
         <div class="mt-8 overflow-hidden rounded-xl border border-slate-200">
           <picture>
-            <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/29008451/pexels-photo-29008451.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Straßenbahn im Stadtverkehr – effiziente, alltagsnahe Angebote" class="h-full w-full object-cover"/>
+            <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/34069/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Analytics‑Dashboard – automatisierte Datenflüsse und Effizienz in der Verwaltung" class="h-full w-full object-cover"/>
           </picture>
         </div>
         <div class="mt-10 grid gap-6 md:grid-cols-3">

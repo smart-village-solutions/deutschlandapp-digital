@@ -198,6 +198,11 @@ function submitContactForm() {
           <h2 class="section-title">Effizienzgewinne und Entlastung der Verwaltung</h2>
           <p class="section-subtitle">Automatisierte Datenflüsse statt Doppelpflege. Services, die Zeit und Kosten sparen.</p>
         </div>
+        <div class="mt-8 overflow-hidden rounded-xl border border-slate-200">
+          <picture>
+            <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/29008451/pexels-photo-29008451.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Straßenbahn im Stadtverkehr – effiziente, alltagsnahe Angebote" class="h-full w-full object-cover"/>
+          </picture>
+        </div>
         <div class="mt-10 grid gap-6 md:grid-cols-3">
           <div class="card"><h3 class="card-title">Digitale Abfallwirtschaft</h3><p class="card-text">Adressgenaue Benachrichtigungen, personalisierte Kalender, weniger Rückfragen.</p></div>
           <div class="card"><h3 class="card-title">Bekanntmachungen digital</h3><p class="card-text">Digitale Veröffentlichung, Stelen vor Ort, bessere Reichweite ohne Mehraufwand.</p></div>
@@ -334,7 +339,7 @@ function submitContactForm() {
                 <label class="sr-only" for="name">Name</label>
                 <input id="name" type="text" v-model="contactForm.name" placeholder="Ihr Name" required class="input" />
                 <label class="sr-only" for="email">E-Mail</label>
-                <input id="email" type="email" v-model="contactForm.email" placeholder="Ihre E��Mail‑Adresse" required class="input" />
+                <input id="email" type="email" v-model="contactForm.email" placeholder="Ihre E‑Mail‑Adresse" required class="input" />
                 <label class="sr-only" for="message">Nachricht</label>
                 <textarea id="message" v-model="contactForm.message" rows="5" placeholder="Ihre Nachricht" required class="input"></textarea>
                 <button type="submit" class="btn-primary">Nachricht senden</button>

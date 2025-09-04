@@ -97,6 +97,11 @@ function submitContactForm() {
             <a href="#kontakt" class="btn-ghost">Kontakt aufnehmen</a>
           </div>
         </div>
+        <div class="relative mt-6">
+          <picture>
+            <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=1400&h=700&fit=crop" alt="Abendliche Skyline von Frankfurt am Main – Sinnbild für moderne, digitale Städte" class="w-full rounded-xl border border-slate-200 object-cover shadow-soft aspect-[16/9]" />
+          </picture>
+        </div>
       </div>
     </section>
 

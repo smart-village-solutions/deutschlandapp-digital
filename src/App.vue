@@ -1,7 +1,25 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, reactive } from 'vue'
 
 const mobileNavOpen = ref(false)
+const contactForm = reactive({
+  name: '',
+  email: '',
+  message: '',
+})
+
+function submitContactForm() {
+  const subject = `Kontakt Deutschland.App – ${contactForm.name || 'Anfrage'}`
+  const body = [
+    `Name: ${contactForm.name}`,
+    `E-Mail: ${contactForm.email}`,
+    '',
+    'Nachricht:',
+    contactForm.message,
+  ].join('\n')
+  const mailto = `mailto:deutschland.app@smart-village.solutions?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  window.location.href = mailto
+}
 </script>
 
 <template>
@@ -294,19 +312,22 @@ const mobileNavOpen = ref(false)
     <!-- Kontakt -->
     <section id="kontakt" class="section">
       <div class="container">
-        <div class="grid items-center gap-8 md:grid-cols-2">
+        <div class="grid items-start gap-8 md:grid-cols-2">
           <div>
             <h2 class="section-title">Kontakt aufnehmen</h2>
-            <p class="section-subtitle">Austausch zu Strategie, Technologie und Transfer in Ihre Kommune.</p>
-            <ul class="mt-4 space-y-2 text-slate-700">
-              <li>Praxisbeispiele und Demo</li>
-              <li>Governance, Datenschutz & Betrieb</li>
-              <li>Finanzierung & interkommunale Modelle</li>
-            </ul>
-            <div class="mt-6 flex flex-wrap gap-3">
-              <a href="mailto:info@deutschlandapp.digital" class="btn-primary">E‑Mail senden</a>
-              <a href="#top" class="btn-ghost">Nach oben</a>
-            </div>
+            <p class="section-subtitle">Haben Sie Fragen, Anregungen oder möchten Sie die Deutschland.App pilotieren? Wir freuen uns auf Ihre Nachricht.</p>
+            <form class="mt-6" @submit.prevent="submitContactForm" aria-label="Kontaktformular">
+              <div class="grid gap-3">
+                <label class="sr-only" for="name">Name</label>
+                <input id="name" type="text" v-model="contactForm.name" placeholder="Ihr Name" required class="input" />
+                <label class="sr-only" for="email">E-Mail</label>
+                <input id="email" type="email" v-model="contactForm.email" placeholder="Ihre E‑Mail‑Adresse" required class="input" />
+                <label class="sr-only" for="message">Nachricht</label>
+                <textarea id="message" v-model="contactForm.message" rows="5" placeholder="Ihre Nachricht" required class="input"></textarea>
+                <button type="submit" class="btn-primary">Nachricht senden</button>
+              </div>
+            </form>
+            <p class="mt-3 text-sm text-slate-600">Direkt per E‑Mail: <a class="link" href="mailto:deutschland.app@smart-village.solutions">deutschland.app@smart-village.solutions</a></p>
           </div>
           <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-soft">
             <h3 class="mb-3 text-lg font-semibold">Zitierte Quellen</h3>
@@ -365,4 +386,8 @@ const mobileNavOpen = ref(false)
 .z-card{background:white;border:1px solid rgba(100,116,139,.25);border-radius:.75rem;padding:1rem}
 .ol-card{display:flex;gap:.75rem;align-items:flex-start;background:white;border:1px solid rgba(100,116,139,.25);border-radius:.75rem;padding:1rem}
 .ol-card>span{display:inline-grid;place-items:center;min-width:2rem;height:2rem;border-radius:.5rem;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);color:#0F3B8C;font-weight:600}
+.input{width:100%;padding:.625rem .875rem;border-radius:.5rem;border:1px solid rgba(100,116,139,.35);background:#fff;color:#0f172a}
+.input:focus{outline:2px solid transparent;box-shadow:0 0 0 3px rgba(15,59,140,.25);border-color:#0F3B8C}
+.bullet{display:inline-grid;place-items:center;width:1.5rem;height:1.5rem;border-radius:.375rem;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);color:#0F3B8C;font-weight:600;margin-right:.5rem}
+.tag{display:inline-block;font-size:.75rem;font-weight:600;color:#0F3B8C;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);border-radius:.375rem;padding:.125rem .5rem;margin-right:.5rem}
 </style>

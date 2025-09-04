@@ -30,9 +30,9 @@ const mobileNavOpen = ref(false)
         </a>
         <nav class="hidden md:flex items-center gap-6 text-sm">
           <a href="#vorteile" class="hover:text-brand">Vorteile</a>
+          <a href="#vergleich" class="hover:text-brand">Vergleich</a>
           <a href="#partizipation" class="hover:text-brand">Partizipation</a>
           <a href="#effizienz" class="hover:text-brand">Effizienz</a>
-          <a href="#vergleich" class="hover:text-brand">Vergleich</a>
           <a href="#baukasten" class="hover:text-brand">Baukasten</a>
           <a href="#zukunft" class="hover:text-brand">Zukunft</a>
           <a href="#bestpractice" class="hover:text-brand">Best Practice</a>
@@ -62,10 +62,11 @@ const mobileNavOpen = ref(false)
     <!-- Sections -->
     <HeroSection />
     <VorteileSection />
+    <VergleichSection />
     <PartizipationSection />
     <EffizienzSection />
     <RisikenSection />
-    <VergleichSection />
+
     <BaukastenSection />
     <BestPracticeSection />
     <ZukunftSection />

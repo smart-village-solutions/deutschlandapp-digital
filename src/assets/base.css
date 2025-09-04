@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html{scroll-behavior:smooth}
+
+@layer components{
+  .container{ @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8; }
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;

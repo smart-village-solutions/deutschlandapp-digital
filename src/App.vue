@@ -179,6 +179,9 @@ function submitContactForm() {
             </div>
           </div>
           <div class="grid gap-4 sm:grid-cols-2">
+            <picture class="sm:col-span-2">
+              <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/33675980/pexels-photo-33675980.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" alt="Menschen im öffentlichen Raum – Partizipation im Alltag" class="w-full rounded-xl border border-slate-200 object-cover"/>
+            </picture>
             <div class="stack-card"><span class="stack-step">1–3</span><h3>Vorstufen</h3><p>Transparente Information, Feedback & Beiträge aus der Lebenswelt.</p></div>
             <div class="stack-card"><span class="stack-step">4–7</span><h3>Partizipation</h3><p>Mitbestimmung bis Eigeninitiative – strukturiert in der App.</p></div>
             <div class="stack-card"><span class="stack-step">GovTech</span><h3>Open Government</h3><p>Offene Daten, einfache Suche, barrierearme Darstellung.</p></div>
@@ -331,7 +334,7 @@ function submitContactForm() {
                 <label class="sr-only" for="name">Name</label>
                 <input id="name" type="text" v-model="contactForm.name" placeholder="Ihr Name" required class="input" />
                 <label class="sr-only" for="email">E-Mail</label>
-                <input id="email" type="email" v-model="contactForm.email" placeholder="Ihre E‑Mail‑Adresse" required class="input" />
+                <input id="email" type="email" v-model="contactForm.email" placeholder="Ihre E��Mail‑Adresse" required class="input" />
                 <label class="sr-only" for="message">Nachricht</label>
                 <textarea id="message" v-model="contactForm.message" rows="5" placeholder="Ihre Nachricht" required class="input"></textarea>
                 <button type="submit" class="btn-primary">Nachricht senden</button>

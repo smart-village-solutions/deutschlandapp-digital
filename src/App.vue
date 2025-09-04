@@ -39,6 +39,7 @@ function submitContactForm() {
           <a href="#vorteile" class="hover:text-brand">Vorteile</a>
           <a href="#partizipation" class="hover:text-brand">Partizipation</a>
           <a href="#effizienz" class="hover:text-brand">Effizienz</a>
+          <a href="#vergleich" class="hover:text-brand">Vergleich</a>
           <a href="#baukasten" class="hover:text-brand">Baukasten</a>
           <a href="#zukunft" class="hover:text-brand">Zukunft</a>
           <a href="#bestpractice" class="hover:text-brand">Best Practice</a>
@@ -55,6 +56,7 @@ function submitContactForm() {
           <a href="#vorteile" class="py-1" @click="mobileNavOpen=false">Vorteile</a>
           <a href="#partizipation" class="py-1" @click="mobileNavOpen=false">Partizipation</a>
           <a href="#effizienz" class="py-1" @click="mobileNavOpen=false">Effizienz</a>
+          <a href="#vergleich" class="py-1" @click="mobileNavOpen=false">Vergleich</a>
           <a href="#baukasten" class="py-1" @click="mobileNavOpen=false">Baukasten</a>
           <a href="#zukunft" class="py-1" @click="mobileNavOpen=false">Zukunft</a>
           <a href="#bestpractice" class="py-1" @click="mobileNavOpen=false">Best Practice</a>
@@ -248,6 +250,60 @@ function submitContactForm() {
       </div>
     </section>
 
+    <!-- Vergleich: Baukasten vs zentrale Einheits‑App -->
+    <section id="vergleich" class="section alt">
+      <div class="container">
+        <div class="grid items-start gap-10 lg:grid-cols-2">
+          <div>
+            <h2 class="section-title">Warum ein föderaler Baukasten besser ist als eine zentrale Einheits‑App</h2>
+            <p class="section-subtitle">Offen, modular, standard‑konform und lokal anpassbar statt starr, teuer und überkomplex. Kommunen behalten Souveränität – bei geringeren Kosten und höherer Praxistauglichkeit.</p>
+            <div class="mt-6 grid gap-4 md:grid-cols-2">
+              <div class="compare-card pro">
+                <h3 class="mb-1 font-semibold">Föderaler App‑Baukasten</h3>
+                <ul class="pro-list">
+                  <li><span class="dot"></span>Open Source & gemeinsame Weiterentwicklung</li>
+                  <li><span class="dot"></span>Module nach Bedarf – Schritt für Schritt</li>
+                  <li><span class="dot"></span>Standard‑Schnittstellen (z. B. OParl, DCAT‑AP.de, OAuth/OIDC)</li>
+                  <li><span class="dot"></span>Lokal konfigurierbar, barrierearm, interoperabel</li>
+                  <li><span class="dot"></span>Interkommunale Beschaffung und Betrieb</li>
+                </ul>
+                <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                  <span class="badge badge-good">Open Source</span>
+                  <span class="badge badge-good">Modular</span>
+                  <span class="badge badge-good">Standards</span>
+                  <span class="badge badge-good">Anpassbar</span>
+                </div>
+              </div>
+              <div class="compare-card con">
+                <h3 class="mb-1 font-semibold">Zentrale Einheits‑App</h3>
+                <ul class="con-list">
+                  <li><span class="dot"></span>Hohe Komplexität oder geringe Praxistauglichkeit</li>
+                  <li><span class="dot"></span>Vendor‑Lock‑in & geringe Weiterentwicklungsdynamik</li>
+                  <li><span class="dot"></span>Teure Individualisierung, lange Release‑Zyklen</li>
+                  <li><span class="dot"></span>Wenig Raum für lokale Besonderheiten</li>
+                  <li><span class="dot"></span>Schwer skalierbare Governance</li>
+                </ul>
+                <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                  <span class="badge badge-bad">Monolith</span>
+                  <span class="badge badge-bad">Lock‑in</span>
+                  <span class="badge badge-bad">Teuer</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a href="#kontakt" class="btn-primary">Austausch starten</a>
+              <a href="#baukasten" class="btn-ghost">Zum Baukasten</a>
+            </div>
+          </div>
+          <div>
+            <picture>
+              <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/3852577/pexels-photo-3852577.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Puzzleteile – Sinnbild für modulare Lösungen und passgenaue Kombinationen" class="w-full rounded-xl border border-slate-200 object-cover shadow-soft aspect-[4/3]"/>
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Föderaler Baukasten -->
     <section id="baukasten" class="section">
       <div class="container">
@@ -423,4 +479,13 @@ function submitContactForm() {
 .input:focus{outline:2px solid transparent;box-shadow:0 0 0 3px rgba(15,59,140,.25);border-color:#0F3B8C}
 .bullet{display:inline-grid;place-items:center;width:1.5rem;height:1.5rem;border-radius:.375rem;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);color:#0F3B8C;font-weight:600;margin-right:.5rem}
 .tag{display:inline-block;font-size:.75rem;font-weight:600;color:#0F3B8C;background:rgba(15,59,140,.06);border:1px solid rgba(15,59,140,.15);border-radius:.375rem;padding:.125rem .5rem;margin-right:.5rem}
+.compare-card{background:#fff;border:1px solid rgba(100,116,139,.25);border-radius:.75rem;padding:1rem}
+.compare-card.pro{box-shadow:0 10px 25px -15px rgba(34,197,94,.3)}
+.compare-card.con{box-shadow:0 10px 25px -15px rgba(239,68,68,.25)}
+.pro-list li,.con-list li{display:flex;gap:.5rem;align-items:flex-start;color:#475569}
+.pro-list .dot{width:.5rem;height:.5rem;border-radius:9999px;background:rgba(34,197,94,.9);margin-top:.5rem}
+.con-list .dot{width:.5rem;height:.5rem;border-radius:9999px;background:rgba(239,68,68,.9);margin-top:.5rem}
+.badge{display:inline-flex;align-items:center;border-radius:.375rem;padding:.125rem .5rem;border:1px solid}
+.badge-good{background:rgba(34,197,94,.08);border-color:rgba(34,197,94,.3);color:#166534}
+.badge-bad{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.3);color:#7f1d1d}
 </style>

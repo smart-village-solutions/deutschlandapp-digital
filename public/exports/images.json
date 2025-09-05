@@ -1,0 +1,72 @@
+[
+  {
+    "section": "hero",
+    "alt": "Abendliche Skyline von Frankfurt am Main – Sinnbild für moderne, digitale Städte",
+    "pexelsId": 1398005,
+    "source": "https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=1400&h=700&fit=crop",
+    "suggestedFilename": "hero-1398005-1400x700.jpeg"
+  },
+  {
+    "section": "vorteile",
+    "alt": "Bürger nutzt Smartphone – Push‑Benachrichtigungen und mobile Verwaltung",
+    "pexelsId": 6009077,
+    "source": "https://images.pexels.com/photos/6009077/pexels-photo-6009077.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop",
+    "suggestedFilename": "vorteile-6009077-1200x600.jpeg"
+  },
+  {
+    "section": "vergleich",
+    "alt": "Puzzleteile – Sinnbild für modulare Lösungen und passgenaue Kombinationen",
+    "pexelsId": 3852577,
+    "source": "https://images.pexels.com/photos/3852577/pexels-photo-3852577.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+    "suggestedFilename": "vergleich-3852577-1200x800.jpeg"
+  },
+  {
+    "section": "partizipation",
+    "alt": "Menschen im öffentlichen Raum – Partizipation im Alltag",
+    "pexelsId": 33675980,
+    "source": "https://images.pexels.com/photos/33675980/pexels-photo-33675980.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop",
+    "suggestedFilename": "partizipation-33675980-1200x600.jpeg"
+  },
+  {
+    "section": "effizienz",
+    "alt": "Analytics‑Dashboard – automatisierte Datenflüsse und Effizienz in der Verwaltung",
+    "pexelsId": 34069,
+    "source": "https://images.pexels.com/photos/34069/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop",
+    "suggestedFilename": "effizienz-34069-1200x600.jpeg"
+  },
+  {
+    "section": "risiken",
+    "alt": "Umleitungsschild – Risiken und Herausforderungen rechtzeitig erkennen",
+    "pexelsId": 12769934,
+    "source": "https://images.pexels.com/photos/12769934/pexels-photo-12769934.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop",
+    "suggestedFilename": "risiken-12769934-1200x600.jpeg"
+  },
+  {
+    "section": "baukasten",
+    "alt": "Open‑Source‑Kollaboration – Basis des föderalen Baukastens",
+    "pexelsId": 11035544,
+    "source": "https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop",
+    "suggestedFilename": "baukasten-11035544-1200x600.jpeg"
+  },
+  {
+    "section": "zukunft-ki",
+    "alt": "Abstrakte KI‑Illustration – Intelligente Module in der App",
+    "pexelsId": 8849295,
+    "source": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop",
+    "suggestedFilename": "zukunft-ki-8849295-900x506.jpeg"
+  },
+  {
+    "section": "zukunft-wallet",
+    "alt": "Digitale Identität und Wallet – sichere Nachweise auf dem Smartphone",
+    "pexelsId": 32642484,
+    "source": "https://images.pexels.com/photos/32642484/pexels-photo-32642484.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop",
+    "suggestedFilename": "zukunft-wallet-32642484-900x506.jpeg"
+  },
+  {
+    "section": "zukunft-stadt",
+    "alt": "Deutsche Stadtlandschaft – Teil des interoperablen Deutschland‑Stacks",
+    "pexelsId": 1398005,
+    "source": "https://images.pexels.com/photos/1398005/pexels-photo-1398005.jpeg?auto=compress&cs=tinysrgb&w=900&h=506&fit=crop",
+    "suggestedFilename": "zukunft-stadt-1398005-900x506.jpeg"
+  }
+]

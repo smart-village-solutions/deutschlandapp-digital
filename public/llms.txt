@@ -17,3 +17,5 @@ Wichtige Inhalte (LLM‑freundlich als Markdown gespiegelt):
 - Kontakt: /llms/kontakt.md
 - Impressum: /llms/impressum.md
 - Rebuild‑Prompt (ohne Styles): /llms/rebuild-prompt.md
+- Bildquellen & Export: /llms/bildquellen.md
+- Download-Links Bilder: /exports/index.html

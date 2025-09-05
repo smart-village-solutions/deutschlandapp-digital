@@ -129,7 +129,7 @@ Ziel: Baue die einseitige Website "Deutschland.App" neu, ohne jegliche Style‑I
 
 ## Footer
 - Links: "Kontakt" → #kontakt; extern "Smart Village App" → https://smart-village.app
-- Impressum (vollständig):
+- Impressum (vollst��ndig):
   - Smart Village Solutions SVS GmbH; Klein Glien 25; 14806 Bad Belzig; Deutschland
   - Tel.: 033841-63969-0; E‑Mail: info@smart-village.solutions
   - Registergericht: Amtsgericht Potsdam; Registernummer: HRB 34248
@@ -138,6 +138,11 @@ Ziel: Baue die einseitige Website "Deutschland.App" neu, ohne jegliche Style‑I
   - Verantwortliche/r i.S.d. § 18 Abs. 2 MStV: Philipp Wilimzig
 - Bildquellen (Pexels‑Nachweise; Alt‑Texte wie oben): IDs 1398005, 6009077, 3852577, 33675980, 34069, 12769934, 11035544, 8849295, 32642484, 1398005
 - Verweise: /sitemap.xml, /robots.txt, /llms.txt
+
+## Assets
+- Bildquellen-Details: /llms/bildquellen.md
+- Download-Links: /exports/index.html
+- Maschinenlesbare Manifest-Datei: /exports/images.json
 
 ## Nicht-funktionale Anforderungen
 - Keine Styles/Framework‑Klassen übernehmen; nutze semantisches HTML (header, nav, main, section, h1–h3, ul/ol, footer, form/label/input/textarea/button, picture/img mit alt).

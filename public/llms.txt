@@ -17,4 +17,3 @@ Wichtige Inhalte (LLM‑freundlich als Markdown gespiegelt):
 - Kontakt: /llms/kontakt.md
 - Impressum: /llms/impressum.md
 
-Hinweis: Die Markdown‑Seiten sind kurze, strukturierte Zusammenfassungen der jeweiligen Bereiche der Startseite und dienen LLMs als kompaktes, kuratiertes Referenzmaterial.

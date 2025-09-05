@@ -39,65 +39,58 @@
       rel="stylesheet"
     />
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "Organization",
-            "@id": "https://deutschlandapp.digital/#organization",
-            "name": "Smart Village Solutions SVS GmbH",
-            "legalName": "Smart Village Solutions SVS GmbH",
-            "url": "https://deutschlandapp.digital/",
-            "email": "info@smart-village.solutions",
-            "telephone": "+49-33841-63969-0",
-            "vatID": "DE265570015",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Klein Glien 25",
-              "postalCode": "14806",
-              "addressLocality": "Bad Belzig",
-              "addressCountry": "DE"
-            },
-            "founder": [
-              { "@type": "Person", "name": "Philipp Wilimzig" },
-              { "@type": "Person", "name": "Erik Hildenbrand" }
-            ],
-            "contactPoint": [
-              {
-                "@type": "ContactPoint",
-                "contactType": "customer support",
-                "email": "info@smart-village.solutions",
-                "telephone": "+49-33841-63969-0",
-                "areaServed": "DE"
-              }
-            ],
-            "sameAs": ["https://smart-village.app"]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://deutschlandapp.digital/#website",
-            "url": "https://deutschlandapp.digital/",
-            "name": "Deutschland.App",
-            "inLanguage": "de-DE",
-            "publisher": { "@id": "https://deutschlandapp.digital/#organization" },
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://deutschlandapp.digital/?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          },
-          {
-            "@type": "WebPage",
-            "@id": "https://deutschlandapp.digital/#webpage",
-            "url": "https://deutschlandapp.digital/",
-            "name": "Deutschland.App – Bürger‑App, Smart City App, digitale Daseinsvorsorge",
-            "description": "Die föderale Deutschland.App: offene, modulare Bürger‑App auf Basis der Smart Village App. Krisenkommunikation, Partizipation, Effizienz in der Verwaltung – digital souverän, offen und nah an den Menschen.",
-            "inLanguage": "de-DE",
-            "isPartOf": { "@id": "https://deutschlandapp.digital/#website" },
-            "about": { "@id": "https://deutschlandapp.digital/#organization" }
-          }
-        ]
-      }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://deutschlandapp.digital/#organization",
+      "name": "Smart Village Solutions SVS GmbH",
+      "legalName": "Smart Village Solutions SVS GmbH",
+      "url": "https://deutschlandapp.digital/",
+      "email": "info@smart-village.solutions",
+      "telephone": "+49-33841-63969-0",
+      "vatID": "DE265570015",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Klein Glien 25",
+        "postalCode": "14806",
+        "addressLocality": "Bad Belzig",
+        "addressCountry": "DE"
+      },
+      "founder": [
+        {"@type": "Person", "name": "Philipp Wilimzig"},
+        {"@type": "Person", "name": "Erik Hildenbrand"}
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "info@smart-village.solutions",
+        "telephone": "+49-33841-63969-0",
+        "areaServed": "DE"
+      }],
+      "sameAs": ["https://smart-village.app"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://deutschlandapp.digital/#website",
+      "url": "https://deutschlandapp.digital/",
+      "name": "Deutschland.App",
+      "inLanguage": "de-DE",
+      "publisher": {"@id": "https://deutschlandapp.digital/#organization"},
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://deutschlandapp.digital/",
+      "url": "https://deutschlandapp.digital/",
+      "name": "Deutschland.App – Bürger‑App, Smart City App, digitale Daseinsvorsorge",
+      "description": "Die föderale Deutschland.App: offene, modulare Bürger‑App auf Basis der Smart Village App. Krisenkommunikation, Partizipation, Effizienz in der Verwaltung – digital souverän, offen und nah an den Menschen.",
+      "inLanguage": "de-DE",
+      "isPartOf": {"@id": "https://deutschlandapp.digital/#website"},
+      "about": {"@id": "https://deutschlandapp.digital/#organization"}
+    }
+  ]
+}
     </script>
   </head>
   <body class="bg-white text-slate-900">

@@ -1,0 +1,20 @@
+Deutschland.App – Kuratierter Einstiegspunkt für Sprachmodelle (LLMs)
+Base-URL: https://deutschlandapp.digital/
+
+Sitemap: /sitemap.xml
+Robots: /robots.txt
+
+Wichtige Inhalte (LLM‑freundlich als Markdown gespiegelt):
+- Startseite (Überblick): /
+- Vorteile: /llms/vorteile.md
+- Vergleich (Baukasten vs. Einheits‑App): /llms/vergleich.md
+- Partizipation: /llms/partizipation.md
+- Effizienz: /llms/effizienz.md
+- Baukasten: /llms/baukasten.md
+- Zukunft: /llms/zukunft.md
+- Best Practice (Smart Village App): /llms/best-practice.md
+- Empfehlungen: /llms/empfehlungen.md
+- Kontakt: /llms/kontakt.md
+- Impressum: /llms/impressum.md
+
+Hinweis: Die Markdown‑Seiten sind kurze, strukturierte Zusammenfassungen der jeweiligen Bereiche der Startseite und dienen LLMs als kompaktes, kuratiertes Referenzmaterial.

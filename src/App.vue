@@ -120,6 +120,7 @@ const mobileNavOpen = ref(false)
         </p>
         <div class="flex items-center gap-4">
           <a href="#kontakt" class="link">Kontakt</a>
+          <a href="/llms/rebuild-prompt.md" download class="link">Prompt herunterladen</a>
           <a href="https://smart-village.app" target="_blank" rel="noopener" class="link"
             >Smart Village App</a
           >

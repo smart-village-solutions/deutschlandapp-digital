@@ -4,7 +4,7 @@
     <div class="container">
       <div class="grid gap-8 md:grid-cols-2">
         <div>
-          <h2 class="section-title">Risiken & Herausforderungen</h2>
+          <h2 class="section-title">Wie man Risiken minimiert</h2>
           <p class="section-subtitle">
             Pflegeaufwand, Akzeptanz, Datenschutz – lösbar mit Strategie und Kooperation.
           </p>
